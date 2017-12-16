@@ -15,7 +15,7 @@ class FigureSelectorContainer extends React.Component {
 
 
   render() {
-    return (<FigureSelector onFigureSelect={this.onFigureSelect} />)
+    return (<FigureSelector onFigureSelect={this.onFigureSelect} selected={this.props.selected}/>)
   }
 }
 

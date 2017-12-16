@@ -1,8 +1,24 @@
 .figure-options-wrapper {
   position: fixed;
   width: 150px;
-  height: 400px;
+  height: 100vh;
   right: 0;
-  top: 100px;
-  outline: 1px solid red;
+  font-size: 10px;
+  top: 0px;
+  /*outline: 1px solid red;*/
+  overflow-y:scroll;
+  font-style: italic;
+}
+input {
+  width: 110px;
+  margin-left: 10px;
+  border: none;
+}
+.title {
+  font-size: 12px;
+  font-weight: 600;
+}
+.input-container {
+  border: 1px solid black;
+  margin-top: 5px;
 }

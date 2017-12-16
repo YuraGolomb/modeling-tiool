@@ -4,5 +4,12 @@
   height: 400px;
   left: 0;
   top: 100px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
+}
+.figure {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.figure.selected {
+  font-weight: 900;
 }
