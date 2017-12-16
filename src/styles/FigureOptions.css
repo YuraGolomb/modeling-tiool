@@ -1,0 +1,8 @@
+.figure-options-wrapper {
+  position: fixed;
+  width: 150px;
+  height: 400px;
+  right: 0;
+  top: 100px;
+  outline: 1px solid red;
+}

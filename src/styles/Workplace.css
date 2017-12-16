@@ -1,0 +1,8 @@
+#workplace {
+  width: calc(100vw - 216px);
+  height: 100vh;
+  outline: 1px solid green;
+  margin: 0 auto;
+  margin-left: 50px;
+
+}
